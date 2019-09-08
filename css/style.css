@@ -1,0 +1,41 @@
+body{
+  color:#000;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center; 
+  background-image: url('../images/fondo4.jpg');
+  background-size:cover;  
+}
+
+.titulo{
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 5px 5px rgba(255,255,255,0.5);
+}
+
+
+
+canvas#tetris{
+  border:solid .5em #000;
+  border-radius:5px;
+  height: 90vh;
+}
+
+DIV.background_tetris{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+}
+
+DIV.UI_Pause{
+  position: fixed;
+  top:55%;
+  left: 59%;
+  width: 300px;
+  height: 300px;
+
+}
